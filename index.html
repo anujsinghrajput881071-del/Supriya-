@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Supriya ❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#ff4d6d,#ff8fab);
+  font-family:'Segoe UI',sans-serif;
+  color:white;
+}
+.box{
+  width:90%;
+  max-width:400px;
+  background:rgba(255,255,255,0.15);
+  padding:25px;
+  border-radius:22px;
+  text-align:center;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+h1{
+  font-size:26px;
+  margin-bottom:10px;
+}
+p{
+  display:none;
+  font-size:18px;
+  margin-top:15px;
+}
+button{
+  margin-top:20px;
+  padding:12px 25px;
+  border:none;
+  border-radius:25px;
+  font-size:16px;
+  background:white;
+  color:#ff4d6d;
+  cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<audio autoplay loop>
+  <source src="tu_hi_mera.mp3" type="audio/mpeg">
+</audio>
+
+<div class="box">
+<h1>🌹 Supriya 🌹</h1>
+
+<p id="m1">Sach bolu… jab tu smile karti hai na, sab theek lagne lagta hai 😊</p>
+<p id="m2">Bina reason ke bhi tu mere mind me chalti rehti hai ❤️</p>
+<p id="m3">Life perfect nahi hai, par tu ho to kaafi perfect lagti hai ✨</p>
+<p id="m4">Is Propose Day bas ek baat poochni thi…</p>
+<p id="m5"><b>Supriya, will you be mine? 💍❤️</b></p>
+
+<button onclick="show()">Tap karo ❤️</button>
+</div>
+
+<script>
+let i=1;
+function show(){
+  if(i<=5){
+    document.getElementById("m"+i).style.display="block";
+    i++;
+  }
+}
+</script>
+
+</body>
+</html>
